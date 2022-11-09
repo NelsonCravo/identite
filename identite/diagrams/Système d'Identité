@@ -1,26 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2022-11-09T18:18:53.135Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Kb20HYnkIAScQpacNgTv" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-09T18:19:41.015Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="n49Z8DmkYb-cUmICqTVF" version="20.5.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Sequence Diagram">
     <mxGraphModel dx="862" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="Portefeuille" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=0;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="40" width="100" height="300" as="geometry" />
+          <mxGeometry x="200" y="40" width="100" height="460" as="geometry" />
         </mxCell>
         <mxCell id="p_jrzO6jEleQ7QSZF1uV-2" value="Citoyen&lt;br&gt;" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="90" y="40" width="20" height="410" as="geometry" />
+          <mxGeometry x="90" y="40" width="20" height="460" as="geometry" />
         </mxCell>
         <mxCell id="p_jrzO6jEleQ7QSZF1uV-3" value="Emetteur" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=0;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="360" y="40" width="100" height="300" as="geometry" />
+          <mxGeometry x="360" y="40" width="100" height="460" as="geometry" />
         </mxCell>
         <mxCell id="p_jrzO6jEleQ7QSZF1uV-4" value="Mediateur" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=0;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="40" width="100" height="300" as="geometry" />
+          <mxGeometry x="530" y="40" width="100" height="460" as="geometry" />
         </mxCell>
         <mxCell id="p_jrzO6jEleQ7QSZF1uV-5" value="Verificateur" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=0;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="680" y="40" width="100" height="300" as="geometry" />
+          <mxGeometry x="680" y="40" width="100" height="460" as="geometry" />
         </mxCell>
         <mxCell id="p_jrzO6jEleQ7QSZF1uV-6" value="Agent" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="30" y="40" width="20" height="410" as="geometry" />
+          <mxGeometry x="30" y="40" width="20" height="460" as="geometry" />
         </mxCell>
         <mxCell id="7ieb6KtiHVeZVZ430Twv-8" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="180" y="130" width="571.875" height="280" as="geometry" />
