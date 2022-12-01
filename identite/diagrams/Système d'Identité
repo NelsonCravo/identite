@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-01T22:02:41.648Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="BUE74Vgk55xdtpZhoQkc" version="20.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-01T22:03:57.654Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="JGtV36UNjMvAPnrNysFg" version="20.6.0" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Sequence Diagram">
     <mxGraphModel dx="1095" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -111,7 +111,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="58" y="40" />
-              <mxPoint x="855" y="40" />
+              <mxPoint x="820" y="40" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -181,6 +181,16 @@
         </mxCell>
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-25" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="EOhPG_KV-VGQ1fx5dfpU-3">
           <mxGeometry x="680" y="280" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EOhPG_KV-VGQ1fx5dfpU-51" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;" edge="1" parent="EOhPG_KV-VGQ1fx5dfpU-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="855" y="132" as="sourcePoint" />
+            <mxPoint x="854.75" y="-253.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="854.5" y="152" />
+              <mxPoint x="854.75" y="-33.5" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-2" value="Emetteur" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-955.5" y="-800" width="1695.5" height="340" as="geometry" />
@@ -267,7 +277,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-13" value="Recevoir&lt;br&gt;problem-report" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;" vertex="1" parent="EOhPG_KV-VGQ1fx5dfpU-2">
-          <mxGeometry x="1197.75" y="180" width="120" height="50" as="geometry" />
+          <mxGeometry x="1155.5" y="180" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EOhPG_KV-VGQ1fx5dfpU-2" source="EOhPG_KV-VGQ1fx5dfpU-14" target="EOhPG_KV-VGQ1fx5dfpU-23">
           <mxGeometry relative="1" as="geometry">
@@ -282,13 +292,13 @@
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-23" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="EOhPG_KV-VGQ1fx5dfpU-2">
           <mxGeometry x="1477.75" y="112.5" width="35" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="EOhPG_KV-VGQ1fx5dfpU-51" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;" edge="1" parent="EOhPG_KV-VGQ1fx5dfpU-2">
+        <mxCell id="EOhPG_KV-VGQ1fx5dfpU-67" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;" edge="1" parent="EOhPG_KV-VGQ1fx5dfpU-2">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="847.25" y="574.5" as="sourcePoint" />
-            <mxPoint x="847.25" y="154.5" as="targetPoint" />
+            <mxPoint x="1315.5" y="540" as="sourcePoint" />
+            <mxPoint x="1315.5" y="155" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="847.25" y="194.5" />
-              <mxPoint x="847.25" y="374.5" />
+              <mxPoint x="1315.5" y="195" />
+              <mxPoint x="1315.5" y="375" />
             </Array>
           </mxGeometry>
         </mxCell>
