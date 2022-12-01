@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-01T21:46:50.293Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="3IzhRVPK27MxVUJdlL1z" version="20.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-01T21:49:29.951Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="MMGtF4J-7-bs78VCevx1" version="20.6.0" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Sequence Diagram">
     <mxGraphModel dx="1095" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -91,13 +91,21 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-2" value="Emetteur" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-957.75" y="-720" width="1695.5" height="340" as="geometry" />
+          <mxGeometry x="-960" y="-680" width="1695.5" height="340" as="geometry" />
         </mxCell>
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EOhPG_KV-VGQ1fx5dfpU-2" source="EOhPG_KV-VGQ1fx5dfpU-1" target="EOhPG_KV-VGQ1fx5dfpU-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="EOhPG_KV-VGQ1fx5dfpU-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EOhPG_KV-VGQ1fx5dfpU-2" source="EOhPG_KV-VGQ1fx5dfpU-1" target="EOhPG_KV-VGQ1fx5dfpU-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="95" y="240" />
+              <mxPoint x="560" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-1" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="EOhPG_KV-VGQ1fx5dfpU-2">
-          <mxGeometry x="40" y="112.5" width="35" height="35" as="geometry" />
+          <mxGeometry x="77.75" y="112.5" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EOhPG_KV-VGQ1fx5dfpU-2" source="EOhPG_KV-VGQ1fx5dfpU-4" target="EOhPG_KV-VGQ1fx5dfpU-11">
           <mxGeometry relative="1" as="geometry" />
@@ -116,17 +124,10 @@
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EOhPG_KV-VGQ1fx5dfpU-2" source="EOhPG_KV-VGQ1fx5dfpU-5" target="EOhPG_KV-VGQ1fx5dfpU-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EOhPG_KV-VGQ1fx5dfpU-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EOhPG_KV-VGQ1fx5dfpU-2" source="EOhPG_KV-VGQ1fx5dfpU-5" target="EOhPG_KV-VGQ1fx5dfpU-14">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="560" y="280" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EOhPG_KV-VGQ1fx5dfpU-2" source="EOhPG_KV-VGQ1fx5dfpU-5" target="EOhPG_KV-VGQ1fx5dfpU-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="580" y="205" />
+              <mxPoint x="600" y="205" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -154,6 +155,13 @@
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EOhPG_KV-VGQ1fx5dfpU-2" source="EOhPG_KV-VGQ1fx5dfpU-11" target="EOhPG_KV-VGQ1fx5dfpU-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="EOhPG_KV-VGQ1fx5dfpU-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EOhPG_KV-VGQ1fx5dfpU-2" source="EOhPG_KV-VGQ1fx5dfpU-11" target="EOhPG_KV-VGQ1fx5dfpU-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="421" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-11" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="EOhPG_KV-VGQ1fx5dfpU-2">
           <mxGeometry x="395.5" y="105" width="50" height="50" as="geometry" />
         </mxCell>
@@ -175,7 +183,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-14" value="Envoyer&lt;br&gt;problem-report" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;" vertex="1" parent="EOhPG_KV-VGQ1fx5dfpU-2">
-          <mxGeometry x="1000" y="257" width="120" height="50" as="geometry" />
+          <mxGeometry x="1117.75" y="264" width="120" height="43" as="geometry" />
         </mxCell>
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-23" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="EOhPG_KV-VGQ1fx5dfpU-2">
           <mxGeometry x="1477.75" y="112.5" width="35" height="35" as="geometry" />
