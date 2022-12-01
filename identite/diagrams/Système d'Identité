@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-01T21:50:39.303Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="vosume5nXO-HK6o3ftb0" version="20.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-01T21:53:30.020Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="xaZDVYVRsLRn5noUFDyp" version="20.6.0" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Sequence Diagram">
     <mxGraphModel dx="1095" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -91,7 +91,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-2" value="Emetteur" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-960" y="-680" width="1695.5" height="340" as="geometry" />
+          <mxGeometry x="-955.5" y="-800" width="1695.5" height="340" as="geometry" />
         </mxCell>
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EOhPG_KV-VGQ1fx5dfpU-2" source="EOhPG_KV-VGQ1fx5dfpU-1" target="EOhPG_KV-VGQ1fx5dfpU-4">
           <mxGeometry relative="1" as="geometry" />
@@ -195,10 +195,10 @@
           <mxGeometry x="40" y="147.5" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-15" value="Envoyer&lt;br&gt;propose-credential" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;" vertex="1" parent="EOhPG_KV-VGQ1fx5dfpU-3">
-          <mxGeometry x="160" y="75" width="120" height="50" as="geometry" />
+          <mxGeometry x="180" y="140" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-16" value="Recevoir&lt;br&gt;offer-credential" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;" vertex="1" parent="EOhPG_KV-VGQ1fx5dfpU-3">
-          <mxGeometry x="440" y="75" width="120" height="50" as="geometry" />
+          <mxGeometry x="420" y="140" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-17" value="Envoyer&lt;br&gt;request-credential" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;" vertex="1" parent="EOhPG_KV-VGQ1fx5dfpU-3">
           <mxGeometry x="795" y="75" width="120" height="50" as="geometry" />
@@ -219,7 +219,7 @@
           <mxGeometry x="1600" y="152.5" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-24" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="EOhPG_KV-VGQ1fx5dfpU-3">
-          <mxGeometry x="640" y="75" width="50" height="50" as="geometry" />
+          <mxGeometry x="640" y="145" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-25" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="EOhPG_KV-VGQ1fx5dfpU-3">
           <mxGeometry x="795" y="220" width="50" height="50" as="geometry" />
@@ -228,6 +228,40 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-100" y="-320" as="sourcePoint" />
             <mxPoint x="60" y="-320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EOhPG_KV-VGQ1fx5dfpU-43" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-100" y="-320" as="sourcePoint" />
+            <mxPoint x="60" y="-320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EOhPG_KV-VGQ1fx5dfpU-47" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-100" y="-320" as="sourcePoint" />
+            <mxPoint x="60" y="-320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EOhPG_KV-VGQ1fx5dfpU-48" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-100" y="-320" as="sourcePoint" />
+            <mxPoint x="60" y="-320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EOhPG_KV-VGQ1fx5dfpU-49" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-100" y="-320" as="sourcePoint" />
+            <mxPoint x="60" y="-320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EOhPG_KV-VGQ1fx5dfpU-50" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;" edge="1" parent="1" source="EOhPG_KV-VGQ1fx5dfpU-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-900" y="-400" as="sourcePoint" />
+            <mxPoint x="-720" y="-640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-720" y="-600" />
+              <mxPoint x="-720" y="-420" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
