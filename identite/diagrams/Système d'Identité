@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-01T22:37:28.705Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="W4-pK69uiNYJ6VKHkcS0" version="20.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-01T22:44:08.397Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="T5azDBLrLB2ZMB9KB5jD" version="20.6.0" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Sequence Diagram">
     <mxGraphModel dx="1095" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -86,7 +86,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="foYBogZ0zG94OoTeF5we" name="BPMN">
-    <mxGraphModel dx="3231" dy="1901" grid="1" gridSize="20" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2347" dy="1441" grid="1" gridSize="20" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -102,6 +102,11 @@
               <mxPoint x="95" y="240" />
               <mxPoint x="560" y="240" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EOhPG_KV-VGQ1fx5dfpU-69" value="début alternatif&lt;br&gt;(l&#39;émetteur commence par l&#39;offre)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EOhPG_KV-VGQ1fx5dfpU-42">
+          <mxGeometry x="-0.4775" y="2" relative="1" as="geometry">
+            <mxPoint x="4" y="17" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-1" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="EOhPG_KV-VGQ1fx5dfpU-2">
@@ -189,16 +194,6 @@
         </mxCell>
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-23" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="EOhPG_KV-VGQ1fx5dfpU-2">
           <mxGeometry x="1477.75" y="112.5" width="35" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="EOhPG_KV-VGQ1fx5dfpU-68" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;" edge="1" parent="EOhPG_KV-VGQ1fx5dfpU-2">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1315.5" y="540.5" as="sourcePoint" />
-            <mxPoint x="1315.25" y="155" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1315" y="560.5" />
-              <mxPoint x="1315.25" y="375" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-3" value="Citoyen" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-957.75" y="-360" width="1700" height="340" as="geometry" />
@@ -292,17 +287,17 @@
         <mxCell id="EOhPG_KV-VGQ1fx5dfpU-25" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="EOhPG_KV-VGQ1fx5dfpU-3">
           <mxGeometry x="680" y="280" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EOhPG_KV-VGQ1fx5dfpU-51" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;" edge="1" parent="EOhPG_KV-VGQ1fx5dfpU-3">
+        <mxCell id="EOhPG_KV-VGQ1fx5dfpU-51" value="demande&lt;br&gt;de credentiel" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="EOhPG_KV-VGQ1fx5dfpU-3" source="EOhPG_KV-VGQ1fx5dfpU-17">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="855" y="132" as="sourcePoint" />
-            <mxPoint x="854.75" y="-253.5" as="targetPoint" />
+            <mxPoint x="855" y="103" as="sourcePoint" />
+            <mxPoint x="854.75" y="-282.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="854.5" y="152" />
-              <mxPoint x="854.75" y="-33.5" />
+              <mxPoint x="854.5" y="123" />
+              <mxPoint x="854.75" y="-62.5" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EOhPG_KV-VGQ1fx5dfpU-50" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;" edge="1" parent="1" source="EOhPG_KV-VGQ1fx5dfpU-15">
+        <mxCell id="EOhPG_KV-VGQ1fx5dfpU-50" value="proposition&lt;br&gt;de credentiel" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;" edge="1" parent="1" source="EOhPG_KV-VGQ1fx5dfpU-15">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-900" y="-400" as="sourcePoint" />
             <mxPoint x="-720" y="-640" as="targetPoint" />
